@@ -123,10 +123,6 @@ img {
 }
 
 #start-msg {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   font-size: 70px;
   width: 500px;
   width: 100%;
@@ -274,6 +270,10 @@ img {
     &::before {
       right: 4.25em;
     }
+  }
+
+  #start-msg {
+    font-size: 50px;
   }
 
   #play-box {
